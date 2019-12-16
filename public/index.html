@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <section>
+    <div>
+      <button class="googlepay long" title="Buy with Google Pay" onclick="onGooglePaymentButtonClicked()"></button>
+    </div>
+  </section>
+  <div>
+    <table style="width:100%">
+      <tr>
+        <th>Payment Gateway Response</th>
+      </tr>
+      <td>
+        <pre id="gatewayResponse"></pre>
+      </td>
+      </tr>
+    </table>
+  </div>
+  <script src="gateway-config.js"></script>
+  <script src="gpay-button.js"></script>
+
+  <script>
+  </script>
+  <script async src="https://pay.google.com/gp/p/js/pay.js"></script>
+</body>
+
+</html>
